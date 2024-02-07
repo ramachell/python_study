@@ -29,3 +29,6 @@ end_time = time.time()
 print(end_time)
 
 print(end_time-start_time)
+
+# 파이썬은 연산이 c보다는 느린데 sum은 c를 사용해서 연산하기때문에 훨빠르다 (3.00484초 vs 0.50256초 약 6배빨랐음)
+
